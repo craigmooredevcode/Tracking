@@ -1,0 +1,243 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100vw;
+    /* background-color: #F4D03F !important; */
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    padding-top: 200px;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 2;
+    background-attachment: fixed;
+}
+
+
+#welcomePage {
+    margin: 0px auto;
+    padding:10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    height: 50vh;
+    width: 60vw;
+    align-items: center;
+    justify-content: center; 
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.contentContainer{
+    text-align: left;
+    color: black;
+    padding: 10px;
+
+}
+
+.contentContainer h1{
+ font-size: 40px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 800;
+text-align: left;
+margin-top: 10px;
+}
+
+.contentContainer p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+.contentContainer button {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        outline: 0;
+        background: #4CAF50;
+        width: 240px;
+        border: 0;
+        border-radius: 8px;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      .form button:hover,.form button:active,.form button:focus {
+        background: #43A047;
+}
+
+.imageContainer img {
+    height: 300px;
+    width: 400px;
+
+}
+
+#trackingPage {
+    margin: 0px auto;
+    padding:30px;
+    display:grid !important;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 5px;
+    width: 50vw;
+    align-items: center;
+    justify-content: center; 
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.trackingHeader h1{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+   text-align:left ;
+}
+
+.trackingInput{
+    margin-left: 20px;
+    align-items: center;
+
+}
+
+.trackingInput input {
+    font-family: 'Poppins', sans-serif;
+    outline: 0;
+    background:whitesmoke;
+    width: 100%;
+    border: 1px solid green;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.trackingInput button{
+
+    font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        outline: 0;
+        background: #4CAF50;
+        width: 100%;
+        border: 0;
+        border-radius: 8px;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+     
+}
+
+#trackingInfo{
+    margin: 0px auto;
+    padding:30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-column: 30px;
+    height: 50vh;
+    width: 60vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.shippingBar{
+    display: flex;
+    width: 400px;
+    margin: 0 auto 40px auto;
+    justify-content: space-around;
+    align-items: flex-end; 
+}
+
+.steps p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bullet{
+    border-radius: 100%;
+    border: 2px solid green;
+    display: inline-block;
+    position: relative;
+    height:50px;
+    width:50px;
+    text-align:center;
+    align-items: center;
+}
+
+.fas{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bullet.completed {
+background-color: green;
+color: white;
+
+}
+
+.bullet.completed::after{
+    content:'';
+    position: absolute;
+    width:60px ;
+    background-color: green;
+    height: 3px;
+    right:-55px ;
+    top: 20px;
+}
+#shipperinfo {
+    text-align: left;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+#shipperinfo h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+}
+
+#shipperinfo p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500; 
+    text-align: left;  
+}
+
+#shipperinfo button {
+
+    font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        outline: 0;
+        background: #4CAF50;
+        width: 100px;
+        border: 0;
+        border-radius: 8px;
+        padding:8px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+}
+
