@@ -38,7 +38,7 @@ var trackingPage = `
 
             <div class="steps">
                 <p class="step-text">Shipped</p>
-                <div class="bullet"><i class="fas fa-plane-departure"></i></div>
+                <div class="bullet completed"><i class="fas fa-plane-departure"></i></div>
             </div>
 
             <div class="steps">
