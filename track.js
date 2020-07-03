@@ -67,7 +67,7 @@ function closeWelcome() {
 
 function trackPage() {
     var trackingCode = document.getElementById('trackingCode')
-    if(trackingCode.value === '#1043526') {
+    if(trackingCode.value === '1043526') {
         document.getElementById('container').innerHTML = trackingPage;
     }
 }
