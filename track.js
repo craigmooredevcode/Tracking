@@ -55,7 +55,7 @@ var trackingPage = `
        
        <div id="shipperinfo">
            <h3 id="orderNo"> Order Number:#1043526 </h3>
-            <p id="ownerDetails"> Full name:Richard Brown <br> Address:134 NE Columbus street, Lee’s summit, MO 64086 <br> Phone Number:+15713645045 </p>
+            <p id="ownerDetails"> Full name:Richard Brown <br> Address:803 NW Park Lane <br>Apartment 11 <br>Lee’s Summit, Missouri 64063 </p>
             <button>Contact Us</button>
        </div>
    </section> -
